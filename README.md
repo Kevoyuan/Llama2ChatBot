@@ -21,11 +21,14 @@ Follow these steps to install and run the chatbot on your local machine:
 1. Open a terminal or command prompt.
 
 2. Create a virtual environment using Python's built-in `venv` module with the following command:
-
+    - On macOS and Linux:
     ```bash
     python3 -m venv chatbot
     ```
-   
+    - On Windows:
+    ```bash
+    python -m venv chatbot
+    ```
     This command creates a new directory named 'chatbot'. Feel free to choose a different name if you prefer.
 
 3. Create a new conda environment, install CLI app, and activate the environment.
